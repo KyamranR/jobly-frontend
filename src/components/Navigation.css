@@ -1,0 +1,22 @@
+nav {
+  position: fixed; /* Stick the nav to the top */
+  top: 0; /* Align to the top of the viewport */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-evenly; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  background-color: #fff; /* Background color */
+  padding: 10px 20px; /* Add padding for spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for separation */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #060c83;
+}
