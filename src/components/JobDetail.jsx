@@ -30,7 +30,7 @@ function JobDetail() {
     <div>
       <h1>{job.title}</h1>
       <p>
-        <b>Company:</b> {job.companyName}
+        <b>Company:</b> {job.company.name}
       </p>
       <p>
         <b>Salary:</b> {job.salary ? `$${job.salary}` : "N/A"}
